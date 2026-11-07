@@ -1,0 +1,11 @@
+# Python 3.10+ on Windows, macOS, or Linux. Install into a fresh venv.
+# Windows: python -m venv .venv
+# Windows: .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+# macOS/Linux: python3 -m venv .venv
+# macOS/Linux: .venv/bin/python -m pip install -r requirements.txt
+# See README.md for pip upgrade, kernel registration, and launch commands.
+numpy>=1.26.4,<3
+matplotlib>=3.9,<4
+scipy>=1.13,<2
+jupyterlab>=4.2,<5
+ipykernel>=6.29,<8
